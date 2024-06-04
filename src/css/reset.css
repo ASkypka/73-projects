@@ -9,9 +9,6 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
 
 ul {
   margin: 0;
@@ -32,4 +29,25 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+
+
+
+.container {
+  width: 320px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
 }
